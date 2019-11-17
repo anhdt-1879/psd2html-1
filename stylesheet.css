@@ -55,7 +55,7 @@
     width:200px;
     height:40px;
     border:none;
-    background: green;
+    background:  #5c752b;
 }
 .joint-us button a {
     font-size:12px;
@@ -188,12 +188,16 @@ a[class^="arrow"]:visited {
 .readmore {
     width: 160px;
     height: 44px;
-    border: solid 1px #ffffff;
     background: transparent;
 }
 .readmore a{
     text-decoration: none;
     font-weight:700;
+}
+.readmore-light {
+    border: solid 1px #ffffff;
+}
+.readmore-light a {
     color:#ffffff;
 }
 .club-feature {
@@ -239,4 +243,81 @@ a[class^="arrow"]:visited {
     font-weight: 300;
     padding:0px;
     margin:0px;
+}
+/*-----INSTRODUCTION------*/
+.introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    padding: 50px 80px;
+}
+.founder {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.about-club {
+    width:45%;
+}
+.about-club h1 {
+    font-size:40px;
+    padding-top:0px;
+    margin-top:0px;
+}
+.about-club i {
+    color: #5c752b;
+    font-weight:600;
+}
+.about-club h1>span {
+    font-weight:900;
+}
+.founder-detail, .about-club, .club-intro {
+    display: flex;
+    flex-direction: column;
+}
+.founder-detail {
+    justify-items: center;
+    text-align: center;
+}
+.founder-detail img {
+    height: 145px;
+    width:120px
+}
+.founder-detail h3 {
+    padding-top:10px;
+    margin:0px;
+    font-size: 16px;
+    line-height:28px;
+}
+.founder-detail p {
+    padding:0px;
+    margin:0px;
+    font-size: 12px;
+    line-height:18px;
+    font-weight: 900;
+    color:#464646;
+    opacity: 0.9;
+}
+.club-intro {
+    width:70%;
+    margin-left:25px;
+}
+.club-intro p {
+    text-align: left;
+    padding:0px 15px 25px 15px;
+    font-size: 14px;
+    line-height: 30px;
+    color:#464646;
+}
+.about-photo img {
+    width: 570px;
+    height:350px;
+    padding: 0px 20px;
+}
+.readmore-dark {
+    border: solid 1px #464646;
+}
+.readmore-dark a {
+    color:#464646;
 }
