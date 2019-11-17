@@ -250,7 +250,7 @@ a[class^="arrow"]:visited {
     flex-direction: row;
     justify-content: center;
     width:100%;
-    padding: 50px 80px;
+    padding: 100px 150px 100px 80px;
 }
 .founder {
     display: flex;
@@ -258,7 +258,7 @@ a[class^="arrow"]:visited {
     align-items: flex-end;
 }
 .about-club {
-    width:45%;
+    width:50%;
 }
 .about-club h1 {
     font-size:40px;
@@ -310,14 +310,112 @@ a[class^="arrow"]:visited {
     line-height: 30px;
     color:#464646;
 }
-.about-photo img {
-    width: 570px;
+.about-photo {
+    width: 50%;
     height:350px;
-    padding: 0px 20px;
+}
+.about-photo img {   
+    width:100%;
+    height: 350px;
+     padding: 0px 20px;
 }
 .readmore-dark {
     border: solid 1px #464646;
 }
 .readmore-dark a {
     color:#464646;
+}
+/*-----Courses-----*/
+.course-section {
+    width:100%;
+    height: 600px;
+    padding: 100px 150px 100px 100px;
+    background: #464646;
+}
+.course-section-wrapper {
+    width:100%;
+    height:850px;
+    background: #505050;
+}
+.course-section h1 {
+    color: #ffffff;
+    font-size:40px;
+    font-weight: 900;
+    text-align: center;
+}
+.course-wrapper {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:0;
+    margin:0;
+}
+.course-item {
+    width:30%;
+    background: #ffffff;
+    padding:0;
+    margin:0;
+}
+.course-photo {
+    width:100%;
+    height:196px;
+    position: relative;
+}
+.course-photo img {
+    width:100%;
+    height:196px;
+    position: absolute;
+    top: 0;
+}
+.course-photo h3 {
+    width:100%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-size: 32px;
+    color:#ffffff;
+    opacity: 0.8;
+}
+.course-detail {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.course-detail ul {
+    list-style: none;
+    padding-top:20px;
+    font-size:14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #464646;
+    opacity: 0.8;
+    }
+.course-detail li>i {
+    font-size: 6px;
+    color:#5c752b;
+    padding-right:5px;
+    vertical-align: middle;
+}
+.charge {
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.book {
+    width:200px;
+    height:44px;
+    margin: 20px auto 40px;
+    background: #5c752b;
+    border: none;
+    text-align: center;
+    padding:5px;
+}
+.book a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 14px;
 }
