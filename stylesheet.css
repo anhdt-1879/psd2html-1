@@ -326,18 +326,22 @@ a[class^="arrow"]:visited {
     color:#464646;
 }
 /*-----Courses-----*/
-.course-section {
+.section {
     width:100%;
-    height: 600px;
     padding: 100px 150px 100px 100px;
     background: #464646;
 }
-.course-section-wrapper {
+.course-section {
+    height: 600px;
+}
+.section-wrapper {
     width:100%;
-    height:850px;
     background: #505050;
 }
-.course-section h1 {
+.course-section-wrapper{
+    height:850px;
+}
+.section h1 {
     color: #ffffff;
     font-size:40px;
     font-weight: 900;
@@ -418,4 +422,73 @@ a[class^="arrow"]:visited {
     color:#ffffff;
     font-weight: 700;
     font-size: 14px;
+}
+/*-----Gallery Section-----*/
+.gallery {
+    margin-top:100px;
+    width:100%;
+}
+.gallery h1 {
+    font-size: 40px;
+    font-weight:900;
+    columns: #0f0f0f;
+    text-align: center;
+}
+.photos {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px 0px 50px;
+}
+.gallery-item {
+    width:24%;
+    padding: 8px 0px;
+}
+/*-----Team Section-----*/
+.team-section {
+    color:#ffffff;
+}
+.team-section p {
+    font-size: 12px;
+    text-align: center;
+}
+.team-section p>span {
+    display: block;
+    word-wrap:break-word;
+}
+.team {
+    width:100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+.team-member {
+    width:20%;
+    margin: 20px;
+}
+.team-member img {
+    width:100%;
+}
+.team-section-wrapper {
+    height:700px;
+}
+.team-section {
+    height:450px;
+}
+.team-member .name {
+    padding-top:10px;
+    margin:0px;
+    font-size: 16px;
+    line-height:28px;
+    font-weight: 700;
+}
+.team-member .position {
+    padding:0px;
+    margin:0px;
+    font-size: 10px;
+    line-height:18px;
+    font-weight: 700;
+
 }
