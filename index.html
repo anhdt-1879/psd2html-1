@@ -4,29 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?fa/liy=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>SHERWOOD</title>
 </head>
 <body>
     <!--Header-->
-    <div class="header flex sticky">
-        <div class="logo flex"><img src="image/mau_logo_transparent.png" alt="Sherwood logo"></div>
-        <div class="navbar flex">
-            <ul>
-                <li class="nav-item"><a href="#">HOME</a></li>
-                <li class="nav-item"><a href="#">PAGES <i class="fas fa-chevron-down"></i></a></li>
-                <li class="nav-item"><a href="#">CLASSES <i class="fas fa-chevron-down"></i></a></li>
-                <li class="nav-item"><a href="#">NEWS <i class="fas fa-chevron-down"></i></a></li>
-                <li class="nav-item"><a href="#">GALLERY</a></li>
-                <li class="nav-item"><a href="#">CONTACTS</a></li>
-            </ul>
+    <div class="header container-fluid">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-light row">
+            <div class="logo col-lg-1 col-sm-8">
+            <a class="navbar-brand">
+                <img class="brand-logo-light" src="images/logo-inverse-358x76.png" alt="" width="179" height="38">
+                <img class="brand-logo-dark" src="images/logo-default-358x76.png" alt="" width="179" height="38">
+            </a>
+            </div> 
+            <div class="nav-detail col-lg-9 col-sm-1">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>       
+            <div class="collapse navbar-collapse responsive" id="navbarNavDropdown">
+                <div class="nav-item-list">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown">
+                              PAGES <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown">
+                              CLASSES <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown">
+                              NEWS <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">CONTACTS</a></li>
+                    </ul>
+                </div>     
+                <div class="joint-us"><button><a href="#">JOINT WITH US</a></button></div>
         </div>
-    <div class="joint-us"><button><a href="#">JOINT WITH US</a></button></div>
     </div>
-
-
+        </nav>
+    </div>
     <!--Slide Section-->
     <div class="slide">
             <span id="slide1"></span>
@@ -283,5 +323,8 @@
         <div class="sns"><i class="fab fa-twitter"></i></div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
